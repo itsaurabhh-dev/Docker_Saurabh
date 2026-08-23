@@ -1,11 +1,16 @@
+# Downloads Node image
 FROM node:16-alpine
 
-WORKDIR /app
+# Create /app
+WORKDIR /app 
 
+# Add Project file
 ADD . .
 
+# Install npm
 RUN npm install
 
-ENTRYPOINT ["npm"]
+ENTRYPOINT ["npm"]  
 
+# Start Express
 CMD ["start"]
