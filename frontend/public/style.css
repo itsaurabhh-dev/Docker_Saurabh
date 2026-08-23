@@ -1,0 +1,18 @@
+body{
+    font-family: Arial;
+    background:#f6f6f6;
+}
+
+.container{
+    width:320px;
+    margin:80px auto;
+    background: #faf9f7;
+    padding:20px;
+    border-radius:8px;
+}
+
+input,button{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
